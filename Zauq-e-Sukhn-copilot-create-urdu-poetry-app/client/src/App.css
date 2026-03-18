@@ -1,0 +1,5 @@
+﻿/* App-level overrides — kept minimal to avoid conflicts with theme system */
+#root {
+  max-width: 100%;
+  margin: 0 auto;
+}
