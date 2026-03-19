@@ -8,7 +8,7 @@ const app = express();
 
 // Middleware
 app.use(cors({
-  origin: "origin: "https://zauq-e-sukhn.netlify.app",",
+  origin: "https://zauq-e-sukhn.netlify.app",
   credentials: true
 }));
 app.use(express.json());
