@@ -7,7 +7,10 @@ const { connectDB } = require('./config/db');
 const app = express();
 
 // Middleware
-app.use(cors());
+app.use(cors({
+  origin: "https://zauq-e-sukhn-backend.onrender.com",
+  credentials: true
+}));
 app.use(express.json());
 
 // Rate limiting — protect all API routes
